@@ -8,13 +8,13 @@ import java.util.Map;
  * and open the template in the editor.
  */
 /**
- *
+ * https://leetcode.com/problems/two-sum/
  * @author varadhan
  */
-class Solution {
+class TwoSum {
 
     public static void main(String[] args) {
-        int[] ans = new Solution().twoSum(new int[]{2,7,11,15}, 9);
+        int[] ans = new TwoSum().twoSum(new int[]{2,7,11,15}, 9);
         for(int i : ans){
             System.out.println(i);
         }
